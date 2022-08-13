@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Increment/Decrement Count</h1>
+      <h4>Using React and React-Redux</h4>
+      <div className='header'>
+        <a className='quantity-minus' title='decrement'><span> - </span></a>
+        <input name='quantity' type='text' className = 'quantity-input' value='0' />
+        <a className='quantity-plus' title='increment'><span> + </span></a>
+
+      </div>
     </div>
   );
 }
