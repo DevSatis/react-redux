@@ -1,9 +1,10 @@
 import './App.css';
+import {Counter} from './feature/counter/Counter';
 
 function App() {
   return (
     <div className="App">
-      <h1> Let's Learn Redux toolkit!</h1>
+      <Counter />
     </div>
   );
 }
